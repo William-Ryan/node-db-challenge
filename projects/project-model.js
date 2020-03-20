@@ -35,5 +35,5 @@ function addTasks(data){
 function findTasks(){
     return db('tasks as t')
     .select('t.*', 'p.project_name','p.project_description')
-    .join('projects as p', 't.project_id', '=', 'p.id')
+    .join('projects as p', 't.projects_id', '=', 'p.id')
 }
