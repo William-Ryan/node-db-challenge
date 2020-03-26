@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+A: a Relational Database. Is the DATABASE SOFTWARE itself, which manages storage, querying, updating, and, well, everything. SQL, is a LANGUAGE (or a family of closely related languages or dialects) which is typically used to query the RD.
+
 - [ ] Why do tables need a `primary key`?
+
+A: Tables need primary keys for a unique identification that points to and allows access from the specified table.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+A: A table column that references other a primary key on other table column is called a foreign key.
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+A: To have a many to many relationship you need a bridge table or a 3rd table to connect both tables through foreign keys.
 
 ## Minimum Viable Product
 
